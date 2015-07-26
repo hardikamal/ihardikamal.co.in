@@ -11,6 +11,8 @@
 
     <title>Hardik Amal - Software Engineer</title>
 
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/creative-brands.css" rel="stylesheet">
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -22,8 +24,7 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	
-	<link href="css/animate.css" rel="stylesheet">
-	<link href="css/creative-brands.css" rel="stylesheet">
+	
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,8 +51,11 @@
 			width: 70%;
 		}
 		.header-bg {
-			background-image: url("img/banner3.jpg");
+			background-image: url("img/banner.jpg");
 		}
+        .wow:first-child {
+            visibility: hidden;
+        }
 	</style>
 
 </head>
@@ -104,12 +108,12 @@
     <header class="header-bg">
         <div class="container ">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" id="circle" src="img/profile1.jpg" alt="">
+                <div class="col-lg-12" >
+                    <img class="img-responsive wow fadeInDown" data-wow-duration="1s" id="circle" src="img/profile1.jpg" alt="">
                     <div class="intro-text">
-                        <span class="name">Hardik Amal</span>
+                        <span class="name wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">Hardik Amal</span>
                     <!--   <hr class="star-light"> -->
-                        <span class="skills">Android Developer - iOS Developer</span>
+                        <span class="skills wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">Android Developer - iOS Developer</span>
                     </div>
                 </div>
             </div>
@@ -117,15 +121,15 @@
     </header>
 
 	<!-- About Section -->
-    <section id="about">
+    <section id="about" class="about">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-primary">
+                    <hr class="star-about">
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-4">
                 
                 </div>
@@ -143,15 +147,15 @@
     </section>
 	
 	<!-- Education Section -->
-    <section id="education" class="success">
+    <section id="education" class="education">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-12 text-center">
                     <h2>Education</h2>
-                    <hr class="star-light">
+                    <hr class="star-education">
                 </div>
             </div>
-            <div class="row">
+            <div class="row wow fadeInUp"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-4 ">
                     <h3>Schooling</h3>
                     <p>From St Mary’s High School, Kalina, Santacruz, Mumbai with 69.06% in 2006.</p>
@@ -174,53 +178,53 @@
     </section>
 	
 	<!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="skills">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-12 text-center">
                     <h2>Skills</h2>
-                    <hr class="star-primary">
+                    <hr class="star-skill">
                 </div>
             </div>
             <div class="row center">
                 <div class="progress-bars">
-					<div class="progress-label">
-						<span>Core Java</span>
-							</div>
-								<div class="progress">
+					            <div class="progress-label wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+						              <span>Core Java</span>
+							    </div>
+								<div class="progress wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="70%" data-appear-animation-delay="900" style="-webkit-animation-delay: 900ms; width: 70%;">
 										<span class="progress-bar-tooltip" style="opacity: 1;">70%</span>
 									</div>
 								</div>
-								<div class="progress-label">
+								<div class="progress-label wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<span>Android</span>
 								</div>
-								<div class="progress">
+								<div class="progress wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="70%" data-appear-animation-delay="900" style="-webkit-animation-delay: 900ms;width: 70%;">
 										<span class="progress-bar-tooltip" style="opacity: 1;">70%</span>
 									</div>
 								</div>
-								<div class="progress-label">
+								<div class="progress-label wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<span>iOS</span>
 								</div>
-								<div class="progress">
+								<div class="progress wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="500%" data-appear-animation-delay="300" style="-webkit-animation-delay: 300ms; width: 50%;">
 										<span class="progress-bar-tooltip" style="opacity: 1;">50%</span>
 									</div>
 								</div>
-								<div class="progress-label">
+								<div class="progress-label wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<span>Titanium</span>
 								</div>
-								<div class="progress">
+								<div class="progress wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="40%" data-appear-animation-delay="600" style="-webkit-animation-delay: 600ms; width: 40%;">
 										<span class="progress-bar-tooltip" style="opacity: 1;">40%</span>
 									</div>
 								</div>
 								
-								<div class="progress-label">
+								<div class="progress-label wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<span>Web Development</span>
 								</div>
-								<div class="progress">
+								<div class="progress wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
 									<div class="progress-bar progress-bar-primary" data-appear-progress-animation="40%" data-appear-animation-delay="600" style="-webkit-animation-delay: 600ms; width: 40%;">
 										<span class="progress-bar-tooltip" style="opacity: 1;">40%</span>
 									</div>
@@ -234,16 +238,16 @@
 	
 	
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="success">
+    <section id="portfolio" class="project">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-12 text-center">
                     <h2>Projects</h2>
-                    <hr class="star-light">
+                    <hr class="star-project">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -253,7 +257,7 @@
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInUp"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -263,7 +267,7 @@
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -308,12 +312,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="contact">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                 <div class="col-lg-12 text-center">
                     <h2>Contact Me</h2>
-                    <hr class="star-primary">
+                    <hr class="star-contact">
                 </div>
             </div>
             <div class="row">
@@ -321,28 +325,28 @@
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                     <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
                                 <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
                                 <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInLeft"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Phone Number</label>
                                 <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="row control-group">
+                        <div class="row control-group wow fadeInRight"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
                                 <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
@@ -351,7 +355,7 @@
                         </div>
                         <br>
                         <div id="success"></div>
-                        <div class="row">
+                        <div class="row wow fadeInUp"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
                             <div class="form-group col-xs-12">
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
@@ -368,19 +372,19 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4" >
-                        <h3>Location</h3>
-                        <p>702/5-A, Sethiya Nagar,<br>Shangrila Co-op Hsg Soc Ltd,<br>90 Feet Road, Sakinaka,<br>Mumbai 400072</p>
+                        <h3 class="wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">Location</h3>
+                        <p class="wow fadeInUp"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">702/5-A, Sethiya Nagar,<br>Shangrila Co-op Hsg Soc Ltd,<br>90 Feet Road, Sakinaka,<br>Mumbai 400072</p>
                     </div>
 					<div class="footer-col col-md-4">
-                        <h3>Get in touch</h3>
-						<i class="fa fa-phone"></i> +919930042175 </br>
-						<i class="fa fa-envelope"></i> hardik_amal2007@yahoo.com
+                        <h3 class="wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">Get in touch</h3>
+						<p class="wow fadeInUp"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;"><i class="fa fa-phone"></i> +919930042175 </br></p>
+						<p class="wow fadeInUp"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;"><i class="fa fa-envelope"></i> hardik_amal2007@yahoo.com</p>
                         
 						
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="brands brands-tada brands-circle brands-inline">
+                        <h3 class="wow fadeInDown"  data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">Around the Web</h3>
+                        <ul class="brands brands-shake brands-circle  brands-inline">
                             <li>
                                 <a href="http://www.facebook.com/hardik.amal" target="_blank" class="brands-facebook "><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
@@ -645,7 +649,10 @@
         </div>
     </div>
 
+    
+
     <!-- jQuery -->
+
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -663,8 +670,28 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 	
-	<!-- Creative Brands JavaScript -->
-	<link href="js/creative-brands.js" rel="stylesheet">
+    <script src="js/wow.js"></script>
+    <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
+  <!-- Creative Brands JavaScript -->
+    <script src="js/creative-brands.js"></script>
+	
 
 </body>
 
